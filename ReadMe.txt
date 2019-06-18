@@ -1,6 +1,9 @@
 Syllabus
 
 Lecture01: Python Basics: Get to Know Your Environment
+- YourName.py
+- MadLib.py
+- MadLib2.py
 
 Lecture02: Turtle Graphics: Drawing with Python
 
