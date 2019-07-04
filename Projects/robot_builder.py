@@ -13,6 +13,11 @@ def rectangle(horizontal, vertical, color):
     t.end_fill()
     t.penup()
 
+# set the background
+t.penup()
+t.speed('slow')
+t.bgcolor('Dodger blue')
+
 # feet
 t.goto(-100, -150)
 rectangle(50, 20, 'blue')
@@ -24,6 +29,10 @@ t.goto(-25, -50)
 rectangle(15, 100, 'grey')
 t.goto(-55, -50)
 rectangle(-15, 100, 'grey')
+
+# body 
+t.goto(-90, 100)
+rectangle(100, 150, 'red')
 
 # arms
 t.goto(-150, 70)
