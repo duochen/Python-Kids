@@ -1,6 +1,6 @@
 # SpiralMyName.py - prints a colorful spiral of the user's name
 import turtle               # Set up turtle graphics
-t = turtle.Pen()  
+t = turtle.Turtle()  
 turtle.bgcolor("black")
 colors = ["red", "yellow", "blue", "green"]
 # Ask the user's name using turtle's textinput pop-up window
