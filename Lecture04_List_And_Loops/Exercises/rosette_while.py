@@ -1,5 +1,5 @@
 import turtle
-t = turtle.Pen()
+t = turtle.Turtle()
 n = 0
 while n < 4:
     t.circle(100)
