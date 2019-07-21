@@ -1,6 +1,6 @@
 import turtle
 
-def square(side):
+def square(t, side):
     for i in range(4):
         t.forward(side)
         t.left(90)
@@ -8,13 +8,13 @@ def square(side):
 t = turtle.Turtle()
 t.hideturtle()
 
-square(100)
+square(t, 100)
 
 t.penup()
 t.left(90)
 t.forward(200)
 t.pendown()
-square(100)
+square(t, 100)
 
 
 
